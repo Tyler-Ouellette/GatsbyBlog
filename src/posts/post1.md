@@ -2,7 +2,7 @@
 # <!-- The Front Matter is represented by --- -->
 slug: '/first-post'
 title: 'Our First Post'
-date: '2018-10-15'
+date: '2018-09-15'
 ---
 
 # Hello
