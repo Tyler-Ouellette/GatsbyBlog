@@ -6,7 +6,6 @@ import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
     background: #524763;
-    margin-bottom: 1.45rem;
     img {
         margin-bottom: 0;
     }
@@ -16,6 +15,9 @@ const HeaderContainer = styled.div`
     margin: 0 auto;
     max-width: 960px;
     padding: 0.5rem;
+    img {
+        margin-bottom: 0;
+    }
 `;
 
 const Header = ({ siteTitle }) => (

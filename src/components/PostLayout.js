@@ -5,8 +5,9 @@ import { graphql } from 'gatsby';
 export default class PostLayout extends Component {
     render() {
         const { markdownRemark } = this.props.data;
+        const { location } = this.props;
         return (
-            <Layout>
+            <Layout location={location}>
                 <div>
                     <h1>{markdownRemark.frontmatter.title}</h1>
                     <div
